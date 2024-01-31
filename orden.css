@@ -1,0 +1,125 @@
+
+body {
+    background-color: rgb(108, 217, 224);
+}
+
+.img1 {
+
+    position: relative;
+    top: 20px;
+    right: 10px;
+    left: 50px;
+}
+
+.img2 {
+
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: initial;
+    color: rgb(87, 86, 90);
+    font-weight: 1100;
+    font-style: italic;
+}
+
+h2 {
+
+    text-align: center;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: gainsboro;
+    font-size: 20px;
+    margin-top: 50px;
+    
+    }
+
+.fila {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.fila >li >a {
+    display: block;
+    padding: 15px 20px;
+    color: black; 
+    text-decoration: none;
+    
+}
+
+.fila > li:hover {
+    background-color: rgb(120, 127, 226);
+}
+
+.columna {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: calc();
+    background-color: rgb(120, 116, 116);
+    text-align: left;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.fila li:hover .columna{
+    display: block;
+}
+
+.columna li:hover {
+    background-color: orange;
+    transition: 0.3 all;
+    margin-top: auto;
+
+}
+
+.columna li a {
+    display: block;
+    color: rgb(16, 16, 168);
+    padding: 0px 15px 15px 0px;
+    text-decoration: none;
+    text-align: left;
+    border: 0px;
+    margin-top: auto;
+    
+}
+
+button {
+    
+    outline: none;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(72, 226, 138);
+    justify-content: center;
+    background-position: center;
+    background-color: darkcyan;
+    margin: 310px 15px 15px 20px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: aquamarine;
+    transition: 0.3s all;
+    color: brown;
+}

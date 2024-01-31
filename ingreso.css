@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(202, 199, 199);
+}
+
+h3 {
+    background-color: goldenrod;
+    width: 25vh;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen1 {
+    text-align: left;
+} 
+
+
+
+h1 {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: initial;
+    color: rgb(62, 12, 212);
+    font-weight: 1100;
+    font-style: italic;
+
+}
+
+.container {
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgb(92, 116, 116);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px 40px;
+    border-top: 6px solid rgb(15, 20, 15);
+    text-align: left;
+
+}
+
+form {
+    margin: 0 auto;
+}
+
+form p {
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 44px;
+    padding: 0.3;
+    color: blue;
+    font-weight: bold;
+}
+
+.login-form form,
+input[type="usuario"],
+input[type="contraseña"] {
+    outline: none;
+    font-size: lem;
+    color: lightgrey;
+    padding: 10px 5px;
+    margin: 1 auto;
+    width: 90%;
+    border-radius: 3;
+    border-bottom: 2px solid rgb(113, 237, 212);
+    display: block;
+    background: rgb(111, 138, 111);
+
+}
+
+input[type="submit"] {
+    width: 60%;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: initial;
+    background: lightgray;
+    border: none;
+    color: rgb(117, 147, 238);
+    cursor: pointer;
+    transition: 0.3s all;
+
+}
+
+input[type="submit"]:hover {
+    background: rgb(122, 121, 121);
+    transition: 0.3s all;
+}
+
+.login-form,
+oc {
+    display: block;
+    font-size: 15px;
+    color: rgb(72, 71, 71);
+    text-align: center;
+    margin-top: 30px;
+    transition: 0.3s all;
+
+}
+
+.login-form,
+oc:hover {
+    color: aqua;
+    transition: 0.3s all;
+
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+h4 {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: initial;
+    color: rgb(125, 57, 203);
+    font-weight: 1100;
+    font-style: italic;
+}
+
+hr {
+    border-top: 1px solid rgb(18, 17, 23);
+    height: 2px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+}
+
+
+button {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: unset;
+    align-self: right;
+    font-kerning: initial;
+    color: rgb(23, 19, 29);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(231, 84, 84);
+    transition: 0.2s all;
+}
+
+button {
+    display: inline-flex;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-position: center;
+    background-color: darkcyan;
+    margin: 10px 0;
+    align-items: center;
+        
+}
+
+.img1 {
+
+    position: relative;
+    top: 20px;
+    right: 10px;
+    left: 50px;
+                 
+}
+
+.img2 {
+
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    
+}
+

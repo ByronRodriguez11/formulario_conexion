@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(189, 179, 179);
+}
+
+h1 {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: initial;
+    color: rgb(62, 12, 212);
+    font-weight: 1100;
+    font-style: italic;
+
+}
+
+.contenedor {
+    width: 20%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: rgb(113, 133, 133);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 30px 0px;
+    border-top: 2px solid rgb(15, 20, 15);
+    text-align: center;
+    font-size: small;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form p {
+    font-size: 18px;
+    font-style: small;
+    margin-top: 10px;
+    padding: 0.3s;
+    color: rgb(72, 38, 62);
+    font-weight: lighter;
+}
+
+.login-form form,
+input[type="nombres"],
+input[type="cedula"],
+input[type="correo"],
+input[type="nombre_usuario"],
+input[type="contraseña"] {
+    outline: none;
+    font-size: lem;
+    color: lightgrey;
+    padding: 10px 5px;
+    margin: 1 auto;
+    width: 90%;
+    height: 2rcap;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(149, 163, 238);
+    display: block;
+    background: rgb(125, 151, 210);
+    text-align: left;
+    height: 5px;
+}
+
+.input-field {
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+
+    color: rgb(183, 46, 46);
+    transition: 0.2s all;
+}
+
+.button:hover {
+
+    color: rgb(183, 46, 46);
+    transition: 0.2s all;
+}
+
+.button {
+    
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 226, 138);
+    justify-content: center;
+    background-position: center;
+    background-color: darkcyan;
+    margin: 10px 0;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn {
+    
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 226, 138);
+    justify-content: center;
+    background-position: center;
+    background-color: darkcyan;
+    margin: 10px 0;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.img1 {
+
+    position: relative;
+    top: 20px;
+    right: 10px;
+    left: 50px;
+
+}
+
+.img2 {
+
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+}

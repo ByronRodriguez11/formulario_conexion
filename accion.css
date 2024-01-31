@@ -1,0 +1,238 @@
+body {
+    background-color: rgb(129, 169, 228);
+}
+
+.img1 {
+
+    position: relative;
+    top: 20px;
+    right: 10px;
+    left: 50px;
+}
+
+.img2 {
+
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: initial;
+    color: rgb(87, 86, 90);
+    font-weight: 1100;
+    font-style: italic;
+}
+
+h2 {
+
+    text-align: center;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.bot-accion {
+
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(92, 116, 116);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px 40px;
+    border-top: 6px solid rgb(15, 20, 15);
+    text-align: center;
+}
+
+.op {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(109, 202, 109);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.op:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(77, 133, 77);
+}
+
+.ib {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(128, 130, 131);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.ib:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(79, 111, 128);
+}
+
+.tr {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(109, 202, 109);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.tr:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(77, 133, 77);
+}
+
+.re {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(128, 130, 131);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.re:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(79, 111, 128);
+}
+
+.fa {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(109, 202, 109);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.fa:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(77, 133, 77);
+}
+
+.in {
+
+    padding: 60px 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(128, 130, 131);
+    font-size: 25px;
+    margin: 5px 3px 5px 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 83, 202);
+    font-weight: 1100;
+    font-style: italic;
+    transition: 0.3s all;
+
+}
+
+.in:hover {
+    color: rgb(51, 61, 42);
+    transition: 0.3s all;
+    background-color: rgb(79, 111, 128);
+}
+
+.bot-accion {
+
+    background-position: center;
+    border-radius: 25px;
+}
+
+.cont {
+
+    background-color: rgb(99, 199, 146);
+    background-position: right;
+    border: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 2px solid rgb(62, 60, 60);
+}
+
+.cont:hover {
+
+    color: rgb(87, 124, 218);
+    transition: 0.3s all;
+    background-color: rgb(42, 94, 66);
+}
+
+.reg {
+
+    background-color: rgb(99, 199, 146);
+    border: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 2px solid rgb(60, 58, 58);
+
+}
+
+.reg:hover {
+
+    color: rgb(90, 137, 199);
+    transition: 0.3s all;
+    background-color: rgb(42, 94, 66);
+} 
